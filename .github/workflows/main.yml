@@ -19,4 +19,4 @@ jobs:
       - name: deploy
         run: |
           zip hello_lambda.zip hello_lambda.py
-          aws lambda update-function-code --function-name=fun --zip-file=fileb://hello_lambda.zip
+          aws lambda update-function-code --function-name=mineiros-s3-lambda --zip-file=fileb://hello_lambda.zip
